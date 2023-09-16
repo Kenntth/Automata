@@ -97,11 +97,11 @@ class Lexer {
         }
     
         public static void main(String[] args) {
-            String input = "ba bb";
+            String input = "aa|bb";
             Lexer lexer = new Lexer(input);
             boolean aceptada = lexer.analizar();
             if (aceptada) {
-                System.out.println("Cadena aceptada");
+                System.out.println("Cadena Correcta");
             } else {
                 System.out.println("Cadena no aceptada");
             }
